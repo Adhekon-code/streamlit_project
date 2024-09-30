@@ -8,7 +8,7 @@ import seaborn as sns
 import numpy as np
 
 # Load the dataset (replace 'your_dataset.csv' with the actual file name)
-df = pd.read_csv(r'C:\Users\User\Desktop\streamlit_project\kickstarter.csv')
+df = pd.read_csv('kickstarter.csv')
 
 st.write("Checking to see the columns in the dataset:")
 st.write(df.columns.tolist())
